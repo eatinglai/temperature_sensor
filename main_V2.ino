@@ -13,15 +13,14 @@ long interval_T1 = 2000;
 long interval_T2 = 6000;
 
 // WiFi credentials
-const char* ssid = "SYN_1F";         // change SSID
-const char* password = "Kaohsiung!68";    // change password
+const char* ssid = "YOUR_Wifi";         // change SSID
+const char* password = "abc";    // change password
 // Google script ID and required credentials
-String GOOGLE_SCRIPT_ID = "AKfycbwA92WnZ-jT6HnGtn9VcGJecqXBeQwbcEDfNJQzn4H7sx5m0Dave2MzNSM7COFjXdW4Ww";    // change Gscript ID
-String web_url = "https://script.google.com/macros/s/AKfycbwA92WnZ-jT6HnGtn9VcGJecqXBeQwbcEDfNJQzn4H7sx5m0Dave2MzNSM7COFjXdW4Ww";
+String GOOGLE_SCRIPT_ID = "ABCD";    // change Gscript ID
+String web_url = "https://script.google.com/macros/s/ABCD";
 //----------------------------------------Host & httpsPort
 const char* host = "script.google.com";
 const int httpsPort = 443;
-const char fingerprint[] PROGMEM = "8b23d9cc3dc5b63de9b12f9de2960e4b4e9e9048bb009145a57911bf1ec9bfae";
 const int maxConnectionAttempts = 2;  // 最大嘗試連線次數
 const int retryInterval = 3000;        // 重新連線的時間間隔（毫秒）
 WiFiClientSecure client; //--> Create a WiFiClientSecure object.
