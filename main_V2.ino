@@ -1,5 +1,4 @@
-///////// Start of MAX6675 settings
-
+//溫度傳感器for ESP32
 #include "max6675.h"
 #include <Wire.h>
 #include <Adafruit_GFX.h>
